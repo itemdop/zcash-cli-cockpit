@@ -3,8 +3,8 @@
 
     "tools": {
         "pinger": {
-            "label": "zcash-cli",
-            "path": "zcash-cli.html"
+            "label": "komodo-cli",
+            "path": "cli.html"
         }
     },
 
