@@ -13,10 +13,10 @@ Copyright (c) 2016 github.com/hellcatz
 //
 // Config Variables
 //
-var zcashcli = "zcash-cli";
+var zcashcli = "komodo-cli";
 var zcash_getinfo_rate = 60000;
 
-var explorer_transactions_url = "https://explorer.zcha.in/transactions/";
+var explorer_transactions_url = "https://kpx.io/transactions/";
 
 
 
@@ -259,7 +259,7 @@ function begin_application() {
 
     // check if zcashd is running
     zcash_cli_op_running = true;
-    var cmd = ["pidof", "zcashd"];
+    var cmd = ["pidof", "komodod"];
     var proc = cockpit.spawn(cmd, {
         err: 'out'
     });
